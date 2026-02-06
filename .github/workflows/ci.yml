@@ -22,4 +22,4 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
       - name: Run demoqa.spec.ts tests (HTML report)
-        run: npx playwright test packages/demoqa/src/tests/demoqa.spec.ts --reporter=html --headed=false
+        run: npx playwright test packages/demoqa/src/tests/demoqa.spec.ts --reporter=html
