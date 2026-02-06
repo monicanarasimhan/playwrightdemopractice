@@ -1,0 +1,11 @@
+{
+  "name": "amazon",
+  "version": "1.0.0",
+  "description": "Playwright tests for amazon",
+  "main": "src/tests/index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC"
+}

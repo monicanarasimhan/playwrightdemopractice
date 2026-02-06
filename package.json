@@ -1,0 +1,13 @@
+{
+  "name": "playwright-e2e-suite",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.1"
+  }
+}

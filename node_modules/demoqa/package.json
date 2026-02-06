@@ -1,0 +1,11 @@
+{
+  "name": "demoqa",
+  "version": "1.0.0",
+  "description": "Playwright tests for demoqa",
+  "main": "src/tests/index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC"
+}

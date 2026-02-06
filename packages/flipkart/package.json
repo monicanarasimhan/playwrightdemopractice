@@ -1,0 +1,11 @@
+{
+  "name": "flipkart",
+  "version": "1.0.0",
+  "description": "Playwright tests for flipkart",
+  "main": "src/tests/index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "author": "",
+  "license": "ISC"
+}
