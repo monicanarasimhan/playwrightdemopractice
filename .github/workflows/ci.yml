@@ -17,5 +17,7 @@ jobs:
           node-version: '20.x'
       - name: Install dependencies
         run: npm install
-      - name: Run demoqa.spec.ts tests (headless)
-        run: npx playwright test packages/demoqa/src/tests/demoqa.spec.ts --reporter=dot --headed=false
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+      - name: Run demoqa.spec.ts tests (HTML report)
+        run: npx playwright test packages/demoqa/src/tests/demoqa.spec.ts --reporter=html --headed=false
