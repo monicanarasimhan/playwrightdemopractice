@@ -55,24 +55,27 @@ test.describe('DemoQA combined suite', () => {
 
     await page.getByText('Elements', { exact: true }).waitFor({ state: 'visible' });
     await page.getByText('Elements', { exact: true }).click();
+    await page.waitForURL(/.*elements.*/);
 
     // Text Box
     await elements.goToTextBox();
+    await page.waitForURL(/.*text-box.*/);
     const textBox = new TextBoxPage(page);
     const fullName = 'Alice Wonderland';
     // wait for the Text Box page heading to ensure the form is ready
     await page.getByRole('heading', { name: 'Text Box' }).waitFor({ state: 'visible' });
     await textBox.fillAndSubmit({ fullName, email: 'alice@example.com', currentAddress: '123 A St', permanentAddress: '456 B St' });
 
-
     // Check Box
     await elements.goToCheckBox();
+    await page.waitForURL(/.*checkbox.*/);
     const checkBox = new CheckBoxPage(page);
     await checkBox.toggleHome();
     await page.getByLabel('Home');
 
     // Radio Button
     await elements.goToRadioButton();
+    await page.waitForURL(/.*radio-button.*/);
     const radio = new RadioButtonPage(page);
     await radio.selectOption('Yes');
     await expect(page.getByText('You have selected', { exact: false })).toBeVisible();
@@ -97,16 +100,20 @@ test.describe('DemoQA combined suite', () => {
     await page.goto(BASE_URL);
     const elements = new ElementsPage(page);
     await page.getByText('Alerts, Frame & Windows', { exact: false }).waitFor({ state: 'visible' });
+    await page.getByText('Alerts, Frame & Windows', { exact: false }).click();
+    await page.waitForURL(/.*alerts.*/);
     await elements.goToAlertsFramesWindows();
     const alertsFrames = new AlertsFramesPage(page);
 
     // Alerts
     await page.getByText('Alerts', { exact: true }).click();
+    await page.waitForURL(/.*alerts.*/);
     const saw = await alertsFrames.triggerAlertAndAccept();
     expect(saw).toBeTruthy();
 
     // Frames
     await page.getByText('Frames', { exact: true }).click();
+    await page.waitForURL(/.*frames.*/);
     const framesContent = await alertsFrames.checkFramesContent();
     expect(framesContent.length).toBeGreaterThan(0);
   });
