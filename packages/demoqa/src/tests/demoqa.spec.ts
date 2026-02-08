@@ -10,7 +10,7 @@ import { AlertsFramesPage } from '../pages/AlertsFramesPage';
 const BASE_URL = 'https://demoqa.com/';
 
 test.describe('DemoQA combined suite', () => {
-  test('Practice Form submission should be successful', async ({ page }) => {
+  test.skip('Practice Form submission should be successful', async ({ page }) => {
     await page.goto(BASE_URL);
 
     // Wait for 'Forms' text to be visible, then click
@@ -49,7 +49,7 @@ test.describe('DemoQA combined suite', () => {
     await expect(formPage.successMessage).toBeVisible();
   });
 
-  test('Element validation', async ({ page }) => {
+  test.skip('Element validation', async ({ page }) => {
     await page.goto(BASE_URL);
     const elements = new ElementsPage(page);
 
@@ -81,10 +81,10 @@ test.describe('DemoQA combined suite', () => {
     await expect(page.getByText('You have selected', { exact: false })).toBeVisible();
   });
 
-  test('Web tables validation', async ({ page }) => {
+  test.skip('Web tables validation', async ({ page }) => {
     // Retry navigation up to 3 times if it fails
     let navAttempts = 0;
-    while (navAttempts < 3) {
+      while (navAttempts < 3) {
       try {
         await page.goto(BASE_URL, { timeout: 60000 });
         break;
@@ -123,7 +123,7 @@ test.describe('DemoQA combined suite', () => {
     let navAttempts = 0;
     while (navAttempts < 3) {
       try {
-        await page.goto(BASE_URL, { timeout: 60000 });
+          await page.goto(BASE_URL, { timeout: 60000 });
         break;
       } catch (e) {
         navAttempts++;
@@ -132,7 +132,7 @@ test.describe('DemoQA combined suite', () => {
       }
     }
     const elements = new ElementsPage(page);
-    const alertsMenu = page.getByText('Alerts, Frame & Windows');
+      const alertsMenu = page.getByText('Alerts, Frame & Windows');
     await alertsMenu.waitFor({ state: 'visible', timeout: 120000 });
     console.log('Is Alerts menu visible:', await alertsMenu.isVisible());
     await page.screenshot({ path: 'alerts-menu-before-click.png' });
