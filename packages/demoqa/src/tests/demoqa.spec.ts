@@ -118,7 +118,7 @@ test.describe('DemoQA combined suite', () => {
     await expect(page.getByText('Fixer', { exact: true })).toBeVisible();
   });
 
-  test.skip('Alerts and frames validation', async ({ page }) => {
+  test('Alerts and frames validation', async ({ page }) => {
     // Retry navigation up to 3 times if it fails
     let navAttempts = 0;
     while (navAttempts < 3) {
@@ -132,11 +132,25 @@ test.describe('DemoQA combined suite', () => {
       }
     }
     const elements = new ElementsPage(page);
-    await page.getByText('Alerts, Frame & Windows', { exact: false }).waitFor({ state: 'visible', timeout: 60000 });
+    const alertsMenu = page.getByText('Alerts, Frame & Windows');
+    await alertsMenu.waitFor({ state: 'visible', timeout: 120000 });
+    console.log('Is Alerts menu visible:', await alertsMenu.isVisible());
+    await page.screenshot({ path: 'alerts-menu-before-click.png' });
+    // Try to close modal/overlay if present
+    const modal = page.locator('.modal-content');
+    if (await modal.isVisible()) {
+      await page.keyboard.press('Escape');
+      await page.waitForTimeout(1000);
+      await page.screenshot({ path: 'alerts-menu-after-modal-close.png' });
+    }
     let clickAttempts = 0;
     while (clickAttempts < 3) {
       try {
-        await page.getByText('Alerts, Frame & Windows', { exact: false }).click({ timeout: 60000 });
+        await alertsMenu.click({ timeout: 120000 });
+        await page.screenshot({ path: `alerts-menu-click-attempt-${clickAttempts}.png` });
+        // Click the element again before proceeding
+        await alertsMenu.click({ timeout: 120000 });
+        await page.screenshot({ path: `alerts-menu-second-click-attempt-${clickAttempts}.png` });
         break;
       } catch (e) {
         clickAttempts++;

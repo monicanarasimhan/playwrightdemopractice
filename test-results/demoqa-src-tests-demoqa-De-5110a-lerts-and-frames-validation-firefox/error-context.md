@@ -1,0 +1,107 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img "adplus-dvertising" [ref=e6] [cursor=pointer]
+    - iframe [ref=e9]:
+      - generic [ref=f4e2]:
+        - link "Advertisement" [ref=f4e4] [cursor=pointer]:
+          - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsv0hTBlO7mX5BNW6Yg3KSto6IZYktJSzvD39bTn-Pguc55ajNxtZKNbLgtlkLVUFsspHskyFNrMzfzz1triL7JlQ2KnnhyBogFKIQZ7c8wbaISNXQkau5QiG4ZEkANpoeHpCMIT0tXgiNOCfO2Aqzp8lY9-K3xfeJReXMZnOXa4oPax7Dtl2XRPwfQ9aM6SOyUmE9p_nK0Dsmw0T_k9RdyMbyVtpZ6NCtaB9C2FGLmnJWNKceqTtVJAYiGW2Z8CLsKbHuZ1v3aGjG_GxJJsxV2YZtg5zL6zXVh0Ow9_fPbQep1tlMueD83nlky_DFQoBAqucboCMreMZrX-FkgK5J0GpgxxF7YuF0wiEgfkDUlMDjxpomo1IUdM7mfzG76wZDA4xfb5oPhtbX0AQnGa-qIGrpFNB5ulLWp-I0tuq2_PYtrsL2zqqkyDBpb7ZV-cZnocvMBolNnkbeflJETyLFx1jIiY8xEjWhtA6uhUF0Q1hivLfrVqqEpAUqQ5Q9Z5Eb4vv4A4ePBJ_ilVJXn80u7hsLru6NOL6WK95mKj06i0wvNed0IN7x530yokRUoPhPlAcjIUiGyfMAG3ID-kmIy05I78_f3akbS0CAW7D-j-3DV-lL3qidaDCN614Ybf4JUvbWDSUUzJA71IE15hGdOxlqF2b3W5QUPXlqr3tPC4tQVxdkgmXHxoD7tB_9w1FNaPtrh8DwMtCnHjeCbf5dSj5Quv2XF2SUyJbtW69KHp_GGL5pJbu4IfY-PZx-1sE08TvybZm-qPwACW1Ws465QxjHGB0pJ3pVVQg_0utlFU_ZtY1yVW4UccZopcxy9hfDG8hp1te0jJFv1xm__wpISGDLtVfJkM8S-9P4hf4v8pLMVfMSkW8aCyCgHZ7mzhbZ17MbIqv_CUlJWHXQGx_yVHRwmXJfAF6xAH75p35WMhEytAv2-cdObNnVh3TZK-RPjXE9g-eunxi3IfcPUaYeLXck2vJLVAU5LtI4NKwI7rACsnqfytavwrvq_ZtGZ8MfLWhhhLrvbtaD_w0nVZaGaN7v_YmlsXiV73fELFqM9CYlywygoEu5asGG2OSf4g9qhPL9lkvmx_pXPtdkG06WTRhkSpe8e1NNCetJ5OHdVBiM2CJrbkynAtCbOg8c-ewJmlILbmD1bqfAT8LewdAiZKawhWgtDt-egYZl93PsLF30c4T3mzcl4odB3JnVseMWa_KCjeBMbamqivIomTL1d7P_Yv8r7p22he5am1_KQc8MhZSnmayT_pbf-VfovA07ATGMDdSgc1_i_hFUF_xUVhhC1W3rxqhF979XdfvyPcOusXTVq_TagZRz4yCgSWSFBc9LpfJACkcwsdrkbjEnQIXhLOpoh3fJiHAbdnkEnoebsKGDKepMem6nzKWwVxr0Kiz9VBQc2FvPFm7WQQjVLKCvfZBD2zeqiQQMV8shmaLv_sBlbOPKyko2YiHll3o_XmCLlKMeGnHXXELiYS1RlhrdzsWwomCN3SE1kthDzkBZwT4RESUyKjKzTK_YbU8tadbxBxs3EA3OnahtUS2GBTWOEJxthR5h5noPknJKWKLo1dOYZ8PifHUMGKNsaVGtOHsL3e6yaQz_11ZPgrAWfX6Q4kPWTbbardewzeTnAEv556T0SX8FYD1Ie5Df7E6ZgxwpGx-r2IWOnmXm36FNGakQ3bkYe0Jz1vD8lPTq9UR7HndckzSRgeff__c2dRaFkF_MfFcY0FRQ95u1jC8Kz3SFi-8yvyDbLA1WWHTQbsVbAlnwypiK4L3P4IiKzZE3EfgaihSRgvAVpI--xaqMgqRy3hH0sGI9q9ZxfNN6LpZDzCTGjsBUch4CJ1jZQ2DLJIvdmoBCuASBpnBt2HiwjzktQAlxchjhesxwPNKTTu_GpJ9X289bDl1iUYB3BUOhXeAX-ohfgt6xjTUUGHKeTiV6GkUnlNkfjlsPzL&sai=AMfl-YSfGSbz1BryzKc2ZzaJA4_76fyn0OskNnAuIb_XH7LHEzYKUTIkAWIajUXY8-5R_pYqMAhO6LstSoAAhv98h_BjmmrdIDrJdOagDS7QxRHg9sbd4-C8tzInCWtkgQSkCRxG9FGSfORnpPj33_nzenb_0ccht33dgSW8l8h4DwU4JXdgxOONjesOMxhNLGXfwRCOJu9OsQPQcbu-BmZrAwW3RAf5H6O0MkUIMPa-lgScS25T_eaVK9ljPwUtFyXcrsniI_lOcYl-ViG9LglshE8Q1aRchLl8Hb2-zUP5PDpVAqGh22KdIMsbX5jUjObVy_maNXbY7FDjC9P4yjMtHlLuHnkHdy2pSDFACnHuPShcagvE6oABZOc1PsSSO7tZdk18gdYFGzHIS7v2Md0t-hwzAtnufESliJpZxKz0MrwCEkUK-bZKTa_wCESHU6NYF9H08Js6MFb8RRobtn7aHkbHhZxoj4Lw2iPmlGa4cwg2-yYftFdXeN7tGB4b5yi453qFcgR4-4OudfbVlK4lG4HdQrH_ugx4HN_G8psfuBeOnMr_3m8rbNzaiMACqDnk5QIPIcrZiLPUQ7oZUOZ1A9MRynQ-H8v6lJCMfmkKkKQbRlFLUSzDAMxt01zOjlM3KYBE_gy2b50&sig=Cg0ArKJSzE9-wiXW2bNe&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.visitdubai.com/en/dubai-ready-for-a-surprise%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_winterbanners%26utm_content%3Dconversion_banner728x90_OPXCAdubai%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23472467956
+          - img "Advertisement" [ref=f4e5]
+        - generic [ref=f4e6]:
+          - generic:
+            - img [ref=f4e10] [cursor=pointer]
+            - button [ref=f4e12] [cursor=pointer]:
+              - img [ref=f4e13]
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - link [ref=e12] [cursor=pointer]:
+        - /url: https://demoqa.com
+        - img [ref=e13]
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]:
+            - img [ref=e25]
+            - text: Elements
+          - img [ref=e30]
+        - generic [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - img [ref=e39]
+            - text: Forms
+          - img [ref=e45]
+        - generic [ref=e49]:
+          - generic [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]:
+              - img [ref=e54]
+              - text: Alerts, Frame & Windows
+            - img [ref=e59]
+          - list [ref=e64]:
+            - listitem [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e68]: Browser Windows
+            - listitem [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - generic [ref=e72]: Alerts
+            - listitem [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+              - generic [ref=e76]: Frames
+            - listitem [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Nested Frames
+            - listitem [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Modal Dialogs
+        - generic [ref=e87] [cursor=pointer]:
+          - generic [ref=e88]:
+            - img [ref=e90]
+            - text: Widgets
+          - img [ref=e95]
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]:
+            - img [ref=e104]
+            - text: Interactions
+          - img [ref=e109]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e116]:
+            - img [ref=e118]
+            - text: Book Store Application
+          - img [ref=e123]
+      - generic [ref=e127]:
+        - iframe [ref=e130]:
+          
+        - generic [ref=e131]:
+          - heading "Frames" [level=1] [ref=e132]
+          - generic [ref=e133]: Sample Iframe page There are 2 Iframes in this page. Use browser inspecter or firebug to check out the HTML source. In total you can switch between the parent frame, which is this window, and the two frames below
+          - iframe [ref=e135]:
+            - heading "This is a sample page" [level=1] [ref=f45e2]
+          - iframe [ref=e137]:
+            - heading "This is a sample page" [level=1] [ref=f46e2]
+        - iframe [ref=e141]:
+          
+      - generic [ref=e146]:
+        - img "Build PlayWright tests with AI" [ref=e148] [cursor=pointer]
+        - iframe [ref=e151]:
+          - generic [ref=f19e2]:
+            - link "Advertisement" [ref=f19e4] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvxck9HEJMwJIyesUieX4BESLGWNfazaRT9JIdK6yZ5AkGB2KR5IdXtcVLiW_krr-WBVl6IP8DopZHNECg83Dy1mU_BaApDf8m4JlUs1i9UMTcCnmP_Okb3I9AwMgzVBGpd937qFtzbQwg6hOqMEoPlFCUZV74gr7noOpr5tmE_qgLd7mo0Lzi22BtZHjRSurGyAeBeAz5Mb7RSSzZwsHDT_jHxMNERWq_NS7JNX8hx4IEvgI3JNmsCYep4HEcluR2VQGUxJYB6_U8jEBT1_-57lbsRaPitXoZIZhieMnfmhmM3RxTYCZhJEsdz7oBrqP92K-dtaecomoWfH-lJGYxxbzunJu2gJAWjqL-Ig31bKO3I2594TV25pmpwk_ZfxkaUS8akkPteINNnFrxY2KiR1Gw-IBRLs_h28QVCiGXWNaraCDR2OeLmjYS-2lxEealdXNoXdTabSz1bV1Yf6darMMJUKl6ykiNH0BNWjNTa_LHM_t1aGXqZdS1-XTCwzCOjYEfI9frMm_Igh1gtdcWrZ8jm8rfEwsejPB9BcNo6E3YMnhDzTeDbJAxkJwzaxUydh-RimqYpVrLakvhQJT9pPsxrUvbi5tC5BKZkJERJASBlqh52srAq34UwKGJKpYrmxTU8GnLcZUxC5AVlghG-ZObfgZSNh_88_TwX8jmNK9P9BKGNcHsCszsMPvQShUFIT0BUvO3yNT5JJkGIYbxCNcGq-NdeY87ikj0cuSLsNRpANse0C0erdQsmBpxX2IHjLmktYU3VAiXDp4mUNiiAko7yuV0-SvmpfV8vMEAg8XvsYN-Tj7CEI6YPJEQtHLhhOwI5o_v-wJnkdSB3wRI2yLrAiNIWuhBdGTIewGqWtTA2ftGEq2ac_kQdgaA5q3BsDxgJo2G1EU_XRR5EIPHwBQ39u1sBrPK5GTxbCOxSms5hhqA47sCUoM1MikYvcTRTFRPGZMlJYDiJoPfdTjVDPt8VDT7JwnZhBpK-YPk0a6laUqUkEafgmpYnwx0sGEMAPjYVxYnjatsUJLm7_b88yl9g9GM1qYHAjSenRaAnZttfqQFI2nL7M7deV4NqrEbtRSsH4eTpOWOiOFqXtEBq2wiJ8b8lRmjmUMsvSSBPcPpeOmF7NgLuVGaVUfwwMIHIfSvK1C3FNDevPs1y81YyHb4E0byLIDdFwA1uQTJuiaen3GAxpxUg1E-ne0QKvPpsJCNwkamQ1gPoxzUOZgC1ztQ8Ef8Kd3FBuy6XWy1RocEJ5BsgDmcNuRu1tYUdf5j5afOzDVHmmJGj8F1Hi6IomyobkFlUeUEN3K3H25JpxNSFUf2ALmRiGcr4WjuoEOXZsnTCY8WNEInL0lKsb_st1MucOBUKPWP015ciGl804htZIkDEppwV_EgktcmJlH9kgeU43JMkz2yZYg_WD9ESf9_jX9o2ZkpN1J-Oa0M3DS0xc0bUtyhq0cfaGYsfMPDgj5tyEIBZ04yQtvU-Q9FLdglz_L8NFmXc1S7OWIbLTX5dBehZnWKWdWAdVvX0h4VpFy0w2va8XopgLMn2qCxhl2dndyblLYupto2RCXlFnkM7JD21Mc7lY8jCcupQuUVypqDa81SedrqIbsesoXaK6qxbJwXulBrV_iR_6Glj_RYv91GYKVmxYI7bJaqPCrn_77whkyM0F1ghKe1RXr0wDBI2DvmZwxYP-sCFEM373fFNW0_sLdntrO2nSSLIGEKs2fxUKhSMHx4DlKt0xGSRW2BtzIO98E8pTPMel0CTj6Jw9204qFl39U4aQ5on0aapm9QWx_bykaQaSMr82z6berCN_Iu_mKeMytgexq8Eh3nLg1YwcnUqzrdHzG3sp-O402uRIUHFd3WZz8bVeKvQFbYl0lgdksL3uG2wP1qSJ1otTtoYPpiiJDivnnVzSSSTo694O2Mj03LOjeltH3SBKCWgLacsvoucDEiBy6Y2NbVnL9Ka&sai=AMfl-YTCnwzaaL5Ba6LDdxgqdOAtrSGPsbilZvlcyMgrbb3JrxJAZ6CurknodOgeueplvJvo6pgfTejcSooW-heOKdNVQ-OkJhrIQq9_H6p2SLvcYAWfDVlVql1gYsuDCVRt9DQUhcHJ0ddidD5-lCjlYATxy4oATbfsBuDvfyrZakWl5NDY5zWAosie4bCd-BfDn2VyGnZ-fV1E5QhIXxTUCMDFqPc0ae8O68PG4A48teForkumKvZ9SmQ9AChr0VmBMEHuiey6W5PIqtp3FsSekl0cC3Ra9tjFKklZX2GEZ1lA2_2jHOs1SJw3P1hGWxTTVSq-Pov042QzLMNlB6CK3rj5P1ZUPWBc_UZK-1t6BjoTtikt14WMjJ0hC-JMsBwB0g5GMWgkQKIL8p0ebSL18ATl_3B3r1feaWGoWFYm7IKZO_Fkt2dLW3bVoQ0aGBYIGSVNADFHwqpomfv5rjayibQnoUuRxRbjngs526Jmf1XdHJ1bC2gijZ6-LXzG41Q1FoJ30EM1hFcgXrlh9AvTF7aRFruOhR_SWqtis58xPX9aMKywi8TMXPI_yTfoLEYoX9KixxCprt393qyHM27C_iy3ZkrPhKuuR136-J1Afltq5TrXaiO8TfOGq7dq1A-X04nsV5FUl6w&sig=Cg0ArKJSzBffNQ_cUTmR&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.visitdubai.com/en/dubai-ready-for-a-surprise%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_winterbanners%26utm_content%3Dconversion_banner300x250_OPXCAdubai%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23462799243
+              - img "Advertisement" [ref=f19e5]
+            - generic [ref=f19e6]:
+              - generic:
+                - img [ref=f19e10] [cursor=pointer]
+                - button [ref=f19e12] [cursor=pointer]:
+                  - img [ref=f19e13]
+        - iframe [ref=e154]:
+          - generic [ref=f20e2]:
+            - link "Advertisement" [ref=f20e4] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvPSA5Wv5WH4fyC3xWKVY8BUpzNlcyQgF6xwA_Z4ecRGk6RptUNVfJaM-YUsOK7Dhz1-NJZdxhtbhMvitz9KjelzoLyKwt15fup80GEsrGdq0mrP8skWACigrBBcny8j9SzCDItRHkpt_qLh-g7jHOXDciqel2Soq7g2Zkr1-FI_yofthqqO8_goqnC5C91RZzs0Nunk-isqYBogbokykLf6N0C_CHmj-v2Q5f-rK4aVKE_wPqjhhBBejKFgLn0SFlIu3xad9LKwGJe16Gb2ly6DN44CWHeSlLcSf40a4PhTNkRtbcCIV7IOeOKq2onVGIRd_ssugas8iubS9KbBeosTmDEjp4ElyuUvYmzh_wFtMtYkmivYmxASbIYy_U0FKTCeS7ubvy0eYfCFyknSY45HE5K0dG5UNJjzfSCklXnUqVgRqhcb0myE0Ys8uWqGQUd7TkPuXot6wNaa7O_dn2DUTBryB7JY5LiiN6MUsKkG7X3Ng2b59LT6eD0kCOHnIZFnFSz1R9vypvv6dh979VPePMj6Rtjy-pw77U9gqcdYnDuUMHAPWOh8PV-WKQLLNoyOJoR--Nii79VzEenSW3_atqGUReQu3jTP7d0zt-h1MBtsiffrUFcDg5qU9otkUJEZjniQnMga4Tu27JD3sqVlwBJksLac62BcBXRxKN00LanaSnWBHRdRfGUCs165CJcCZ3myFJqc54JoLCp_sr6jIaHHAb-ZxwRxCmkNK4oGkqbzxdNbM-_2fA-4WSF3Z2KDDa7zs9vbtWeyYyzSjzEjhmoJ0Bv3x-Ln3V0Gwapx8GFdPbVjEz70W8dCTxYQ7B8WQue4nhZFPlrIh_1XHmVg6Hkuh2PFGH-diuPnILmHU5cA49oXFPyEaI6Tv0VLMBNMmrYYOY1vFwVLD2aEifxGShekvl8ezU1Jci51_hCFRKFFEJQ-CnVsaDudMSOTnlGP8oL1Y-G6xE08TQkjCn1egeu5OKMHVKdv-SLZ4P3SrCl2DkeYjTs8-HKkacLBX1Ub6cyDQZddAj4ZHTLjulpo-CqP6VlOQAgULUdr6HAGhqTSw7HaEke0e-3ycWZwJbwamj3nDeem9FrJhcRdrsr1MDwe6SpdywXzEodM5oiH8LPFUx6GfcENBwLgOTdKzyEjQ3H04R83cbAAPDbxu-y_gghUkYOlkac4TZ0ShgVLM11sJqZM7ls86wUUgDS67Y5Y4VxEZcPSxF92CfXCescYnAae2ByvBi5MnCtllmhw0LwhBiBlHdXnSaGm-RtFDrGKYvLTHtFrgUoKF09H-H3N_KDzMoPdCsGuHHYbVfWg52s6yFZJFncVEVKNXyUhAVlBIAFv34WsSP4s-4jz63p60j5u-RdFRZT7rUV3re1qWHLKPy1BTjJFOVG-VnrZmDjw4gx9M5dBuZV9xOVhqtp5tCzrH9wTsZw1PvM3ItRP3VhV0niS3Uv-W0ykRzcnzfU0wIoba3MnlqshsmAziZsWiUb7CHeGKT5q7EvfomklaGoyUuw2oPf-fdx7WawOP4aKHVur9IGZDqSgb7_8zBMGSS0bf90vStDQdvmc9KOXWm0TxJrtsxt0npyzbHxm5YZ77iv0ig3rNmypI7en98Wz4kyL9t9CCXpxLaiJ3e4WsVLdCtKPO0pJc3fXYPqT3E4GYSK-c4FM_MQpisP6EZ4qceElsysSxCz2t3pAosfciZXT-zv6RH5lf1RC9GfiNmnVZNG6gmp4FPUdj_UHG2AaW13UHXCCvZkYeHBKbozJUhRKw7sE0BjJOsx0HdUzCIzk1IV3jnoRr-XKKz8t7nvuGQA6IiKImehnAnGzy8NNai-ilcMcW2p3xd5STEKrS9E4fa_CexTox-z-brpmNPUN5vkB2sqPLD5PN_9nI9UN_1c8PUO2G37nANAawr1b_7x7k7Svnde0t1wrzEWzW1-n62GYhMUL_TfNQSx8Mma9dqtuAkB&sai=AMfl-YTI2UehCHpSt_mGgWIIqBDyPQOtkRZjcfG9RUtMJdwoG1tJoTBMTrzeIKFHHfb4fKdRoofR5_-PG1Qh8K1f3w5Awho3LqLpx4ai-yaHXF-8YZKoe19lj_D8cXyorgXTx-3Mc9AQLDcGdRLTx3k0b4qT5_9tBdpfnyO8LT6K8y1BkRmd5rUxvffM8nOxlAbaDQTN8bTuIsEeqI25UgJiQi3XdSFXYArVSgyfF6JPQCqWepMtzhWj8ar450yXp8wZJWWNem-l5_SEzBcQWE_N-6mjGmaC83Ahl-za9qtcWGD14_bZE2XfFksp_8NDFPn2QZ60hx9d-Sh8TwPcxyvIHkHOKVUXkwfEYQRNq8Dp3qDiANBp6-38IEUO2XtiaGXPRZwW4bqjUUIapZ0IR8FaDnrfzCE8htslkTDjkoGw5n5hEZjj8gYmkT8RMQGQYRSD97_w-_c_GTPKm7kWhp6c1s6bmLBUwjG5MgYjm-senP7qtMARoaEjAAnrgG3D6MZW9njmO0rNQI_iASPBBki0D4uLGBTvWdtcyO_rJt3uwYZF4HR56Z_C84hsgo13jGN2X-Ck56F7xXZqcdVfw7_TZYKcmwsU9xpGGuJ8shBBg4c5WdTE1of619fTB82V1eCwKexE3Clabyc&sig=Cg0ArKJSzM-JLLPn_kqh&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.visitdubai.com/en/dubai-ready-for-a-surprise%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_winterbanners%26utm_content%3Dconversion_banner300x250_OPXCAdubai%26dclid%3D%25edclid!%26gad_source%3D7%26gad_campaignid%3D23462799243
+              - img "Advertisement" [ref=f20e5]
+            - generic [ref=f20e6]:
+              - generic:
+                - img [ref=f20e10] [cursor=pointer]
+                - button [ref=f20e12] [cursor=pointer]:
+                  - img [ref=f20e13]
+    - contentinfo [ref=e155]:
+      - generic [ref=e156]: © 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.
+```
