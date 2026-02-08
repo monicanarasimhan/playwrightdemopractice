@@ -82,9 +82,31 @@ test.describe('DemoQA combined suite', () => {
   });
 
   test('Web tables validation', async ({ page }) => {
-    await page.goto(BASE_URL);
+    // Retry navigation up to 3 times if it fails
+    let navAttempts = 0;
+    while (navAttempts < 3) {
+      try {
+        await page.goto(BASE_URL, { timeout: 60000 });
+        break;
+      } catch (e) {
+        navAttempts++;
+        if (navAttempts === 3) throw e;
+        await page.waitForTimeout(5000);
+      }
+    }
     const elements = new ElementsPage(page);
-    await page.getByText('Elements', { exact: true }).click();
+    await page.getByText('Elements', { exact: true }).waitFor({ state: 'visible', timeout: 60000 });
+    let clickAttempts = 0;
+    while (clickAttempts < 3) {
+      try {
+        await page.getByText('Elements', { exact: true }).click({ timeout: 60000 });
+        break;
+      } catch (e) {
+        clickAttempts++;
+        if (clickAttempts === 3) throw e;
+        await page.waitForTimeout(5000);
+      }
+    }
     await elements.goToWebTables();
     const webTables = new WebTablesPage(page);
     await webTables.addRow({ firstName: 'Bob', lastName: 'Builder', email: 'bob@builder.com', age: '30', salary: '1000', department: 'Construction' });
@@ -97,22 +119,65 @@ test.describe('DemoQA combined suite', () => {
   });
 
   test('Alerts and frames validation', async ({ page }) => {
-    await page.goto(BASE_URL);
+    // Retry navigation up to 3 times if it fails
+    let navAttempts = 0;
+    while (navAttempts < 3) {
+      try {
+        await page.goto(BASE_URL, { timeout: 60000 });
+        break;
+      } catch (e) {
+        navAttempts++;
+        if (navAttempts === 3) throw e;
+        await page.waitForTimeout(5000);
+      }
+    }
     const elements = new ElementsPage(page);
-    await page.getByText('Alerts, Frame & Windows', { exact: false }).waitFor({ state: 'visible' });
-    await page.getByText('Alerts, Frame & Windows', { exact: false }).click();
+    await page.getByText('Alerts, Frame & Windows', { exact: false }).waitFor({ state: 'visible', timeout: 60000 });
+    let clickAttempts = 0;
+    while (clickAttempts < 3) {
+      try {
+        await page.getByText('Alerts, Frame & Windows', { exact: false }).click({ timeout: 60000 });
+        break;
+      } catch (e) {
+        clickAttempts++;
+        if (clickAttempts === 3) throw e;
+        await page.waitForTimeout(5000);
+      }
+    }
     await page.waitForURL(/.*alerts.*/);
     await elements.goToAlertsFramesWindows();
     const alertsFrames = new AlertsFramesPage(page);
 
     // Alerts
-    await page.getByText('Alerts', { exact: true }).click();
+    await page.getByText('Alerts', { exact: true }).waitFor({ state: 'visible', timeout: 60000 });
+    clickAttempts = 0;
+    while (clickAttempts < 3) {
+      try {
+        await page.getByText('Alerts', { exact: true }).click({ timeout: 60000 });
+        break;
+      } catch (e) {
+        clickAttempts++;
+        if (clickAttempts === 3) throw e;
+        await page.waitForTimeout(5000);
+      }
+    }
     await page.waitForURL(/.*alerts.*/);
     const saw = await alertsFrames.triggerAlertAndAccept();
     expect(saw).toBeTruthy();
 
     // Frames
-    await page.getByText('Frames', { exact: true }).click();
+    await page.getByText('Frames', { exact: true }).waitFor({ state: 'visible', timeout: 60000 });
+    clickAttempts = 0;
+    while (clickAttempts < 3) {
+      try {
+        await page.getByText('Frames', { exact: true }).click({ timeout: 60000 });
+        break;
+      } catch (e) {
+        clickAttempts++;
+        if (clickAttempts === 3) throw e;
+        await page.waitForTimeout(5000);
+      }
+    }
     await page.waitForURL(/.*frames.*/);
     const framesContent = await alertsFrames.checkFramesContent();
     expect(framesContent.length).toBeGreaterThan(0);
