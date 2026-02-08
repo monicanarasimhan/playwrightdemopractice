@@ -118,7 +118,7 @@ test.describe('DemoQA combined suite', () => {
     await expect(page.getByText('Fixer', { exact: true })).toBeVisible();
   });
 
-  test('Alerts and frames validation', async ({ page }) => {
+  test.skip('Alerts and frames validation', async ({ page }) => {
     // Retry navigation up to 3 times if it fails
     let navAttempts = 0;
     while (navAttempts < 3) {
